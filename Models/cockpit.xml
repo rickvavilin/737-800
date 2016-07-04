@@ -1780,7 +1780,8 @@
       <object-name>colum</object-name>
       <object-name>colum.002</object-name>
       <property>controls/flight/elevator</property>
-      <factor>15</factor>
+      <factor>14</factor>
+      <!--<offset-deg>8</offset-deg> leave it 0, because of wrong geometry of cockpit and overlapping with PFD -->
       <center>
           <x-m>0.725</x-m>
           <y-m>0</y-m>
@@ -1827,6 +1828,47 @@
       </axis>
   </animation>
   
+     <model>
+        <name>ldglightleftretr</name>
+        <path>landinglight.ac</path>
+        <offsets>
+            <x-m>0.6127471</x-m>
+            <y-m>-0.2644771</y-m>
+            <z-m>1.42400</z-m>
+            <pitch-deg>125</pitch-deg>
+        </offsets>
+    </model>
+	<model>
+        <name>ldglightrightretr</name>
+        <path>landinglight.ac</path>
+        <offsets>
+            <x-m>0.6127595</x-m>
+            <y-m>-0.1857275</y-m>
+            <z-m>1.42400</z-m>
+            <pitch-deg>125</pitch-deg>
+        </offsets>
+    </model>
+    <model>
+        <name>ldglightleftwing</name>
+        <path>landinglight.ac</path>
+        <offsets>
+            <x-m>0.6121518</x-m>
+            <y-m>-0.2147996</y-m>
+            <z-m>1.42400</z-m>
+            <pitch-deg>125</pitch-deg>
+        </offsets>
+    </model>
+  
+    <model>
+        <name>ldglightrightwing</name>
+        <path>landinglight.ac</path>
+        <offsets>
+            <x-m>0.6134001</x-m>
+            <y-m>-0.2420656</y-m>
+            <z-m>1.42400</z-m>
+            <pitch-deg>125</pitch-deg>
+        </offsets>
+    </model>
 </PropertyList>
    
    
